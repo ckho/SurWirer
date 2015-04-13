@@ -1,0 +1,14 @@
+<ion-view view-title="Setting">
+  <ion-content>
+    <div class="list">
+    	<div class="item item-divider"> 
+          Mode
+        </div>
+        <ion-radio ng-repeat="item in modeList"
+                   ng-value="item.value"
+                   ng-model="data.mode">
+          {{ item.text }}
+        </ion-radio>
+	</div>
+  </ion-content>
+</ion-view>

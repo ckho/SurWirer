@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+.connect {
+	margin-left: 10%;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	font-size: 20px;
+}
+
+.connect:before {
+	content:'•';
+	padding-right:5px;
+}
+
+.connected {
+	color: green;
+}
+
+.nonconnected {
+	color: red;
+}
+
+.heartrateresult  {
+	margin-left: 14%;
+	margin-top: 30%;
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 140px;
+}
+
+.bpm {
+	font-size: 25px;
+}
+
+.item-icon-left ion-spinner {
+	float: left;
+	margin-left: -3.2em;
+	margin-right: 1em;
+	margin-top: -0.2em;
+ }
+
+.spinner svg {
+  width: 80px;
+  height: 80px;
+  stroke: #444;
+  fill: #444;
+}

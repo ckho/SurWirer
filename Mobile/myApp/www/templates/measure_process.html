@@ -1,0 +1,26 @@
+<ion-view view-title="">
+	<ion-nav-bar class="bar-light">
+		<ion-nav-buttons side="left">
+   			<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  		</ion-nav-buttons>
+	</ion-nav-bar>
+	<ion-content>
+		<div class="row">
+			<div class="col" style="text-align: center; margin-top: 10%; margin-bottom: 10%; font-size: 70px;">
+				<p>{{processingHR}} <em class="bpm">bpm</em></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-80 col-offset-10" style="text-align: center; margin-bottom: 10%;">
+				<ion-spinner icon="ripple"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" style="text-align: center;">
+				<h1>Processing...</h1>
+				<h4>Please don't move your hand</h4>
+				<h5>{{debugdata}}test</h5>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

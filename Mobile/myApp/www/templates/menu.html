@@ -1,0 +1,44 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable" style="height:200px">
+      <div class="col col-60 col-offset-40" style="text-align: center;">
+        <h4>SurWirer</h4>
+        <a ng-click="login()" style="text-decoration: none;">
+          <img width="40%" style="border-radius: 100%" src="./img/ionic.png">
+          <p>Login or Register</p>
+        </a>
+      </div>
+    </ion-header-bar>
+    <ion-content style="top: 200px;">
+      <ion-list>
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/measure">
+          <i class="icon ion-heart"></i>Measure
+        </ion-item>
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/history">
+          <i class="icon ion-android-folder-open"></i>History (TBF)
+        </ion-item>
+        <ion-item nav-clear menu-close class="item-icon-left" href="#/app/doctor">
+          <i class="icon ion-medkit"></i>Doctor (TBF)
+        </ion-item>
+      </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar-stable" >
+      <a nav-clear menu-close class="item-icon-left" href="#/app/setting" style="text-decoration: none;">
+        <i class="icon ion-gear-a"></i><div class="title">Setting</div>
+      </div>
+    </ion-footer-bar>
+  </ion-side-menu>
+</ion-side-menus>
